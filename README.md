@@ -1,6 +1,7 @@
 # Amy's Personal Website
 
 # Table of Contents
+- [Personal Website](https://a-vargas-gp.github.io/)
 - [Personal Statement](#about-me)
 - [Projects](#projects)
 - [Programs](#programs)
@@ -20,13 +21,15 @@ My skills include 3D modeling, software and game development, video editing, pho
 I am heavily interested in the field of animation, but I am open to other fields such as graphic design, VR/AR design, video editing, and photo restoration/retouching.
 
 # Projects
-- PlantMe-NJ
-- The Dining Room
-- Drawdio
+- [PlantMe-NJ](https://github.com/A-Vargas-GP/PlantMe-NJ_Application)
+    - [Beta Version](https://github.com/A-Vargas-GP/Plant4U-MicroThesis)
+- [Drawdio](https://github.com/A-Vargas-GP/Drawdio-Application)
 - Boxman Project
-- Energy Supply Project Analysis
+- [Energy Supply Project Analysis](https://github.com/A-Vargas-GP/cab-project-02-1)
 - ACCR Pro-Bono Breakdown
-- [Senior Thesis](https://www.immseniorshow.com/amy-vargas)
+- [The Dining Room](https://www.artstation.com/artwork/D5wlx9)
+    - [VR Version](https://github.com/A-Vargas-GP/Dining-Room-VR)
+- [Senior Thesis Website](https://www.immseniorshow.com/amy-vargas)
 
 # Programs
 - Adobe Suite
@@ -48,10 +51,10 @@ I am heavily interested in the field of animation, but I am open to other fields
 - Visual Studio Code
 
 # Important Links
-- [Artstation](https://www.artstation.com/vargas-a9)
-- [Itch.io](https://a-varg.itch.io)
-- [LinkedIn](https://www.linkedin.com/in/vargas-amy)
 - [Personal Website](https://a-vargas-gp.github.io/)
+- [LinkedIn](https://www.linkedin.com/in/vargas-amy)
+- [Itch.io](https://a-varg.itch.io)
+- [Artstation](https://www.artstation.com/vargas-a9)
 - [Twitter](https://twitter.com/Panic_3DArt)
 
 # Languages
@@ -64,7 +67,7 @@ I am heavily interested in the field of animation, but I am open to other fields
 - HTML
 - CSS
 - Python
-- Ruby (on Rails)
+- Ruby
 
 # Credits
 - [ReadMe Templates](https://github.com/othneildrew/Best-README-Template)
