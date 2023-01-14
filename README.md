@@ -18,7 +18,7 @@ I will be graduating with a B.A. in Interactive Multimedia with a focus in Anima
 
 My skills include 3D modeling, software and game development, video editing, photo restoration/retouching, and graphic design.
 
-I am heavily interested in the field of animation, but I am open to other fields such as graphic design, VR/AR design, video editing, and photo restoration/retouching.
+I am interested in the field of animation as well as other areas, such as graphic design, VR/AR design, video editing, and photo restoration/retouching.
 
 # Projects
 - [PlantMe-NJ](https://github.com/A-Vargas-GP/PlantMe-NJ_Application)
