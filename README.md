@@ -21,7 +21,7 @@ My skills include 3D modeling, software and game development, video editing, pho
 I am interested in the field of animation as well as other areas, such as graphic design, VR/AR design, video editing, and photo restoration/retouching.
 
 # Projects
-- [PlantMe-NJ](https://github.com/A-Vargas-GP/PlantMe-NJ_Application)
+- [PlantMe-NJ](https://github.com/A-Vargas-GP/PlantMe-NJ_App)
     - [Beta Version](https://github.com/A-Vargas-GP/Plant4U-MicroThesis)
 - [Drawdio](https://github.com/A-Vargas-GP/Drawdio-Application)
 - Boxman Project
