@@ -25,6 +25,7 @@ I am interested in the field of animation as well as other areas, such as graphi
     - [Beta Version](https://github.com/A-Vargas-GP/Plant4U-MicroThesis)
 - [Drawdio](https://github.com/A-Vargas-GP/Drawdio-Application)
 - Boxman Project
+    - [Boxman Website](https://boxman-thesis-org.github.io/BoxmanTheGame_Website.github.io/) 
 - [Energy Supply Project Analysis](https://github.com/A-Vargas-GP/cab-project-02-1)
 - ACCR Pro-Bono Breakdown
 - [The Dining Room](https://www.artstation.com/artwork/D5wlx9)
