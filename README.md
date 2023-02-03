@@ -60,15 +60,15 @@ I am interested in the field of animation as well as other areas, such as graphi
 
 # Languages
 - C# (Unity)
-- PostgreSQL
+- C++
 - Java
 - Kotlin
-- C++
+- Ruby
+- Python
+- PostgreSQL
 - Javascript
 - HTML
 - CSS
-- Python
-- Ruby
 
 # Credits
 - [ReadMe Templates](https://github.com/othneildrew/Best-README-Template)
