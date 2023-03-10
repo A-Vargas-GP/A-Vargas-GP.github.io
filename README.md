@@ -56,7 +56,6 @@ I am interested in the field of animation as well as other areas, such as graphi
 - [LinkedIn](https://www.linkedin.com/in/vargas-amy)
 - [Itch.io](https://a-varg.itch.io)
 - [Artstation](https://www.artstation.com/vargas-a9)
-- [Twitter](https://twitter.com/Panic_3DArt)
 
 # Languages
 - C# (Unity)
