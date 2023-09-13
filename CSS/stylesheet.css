@@ -116,14 +116,12 @@ background-color:#333;
   font-family: 'Dosis', 'Open Sans', sans-serif;
 }
 .blog-btn {
-   background-color:#F46A6A;
    color:#fff;
   font-weight:800;
   border:0px;
   box-shadow:0 6px rgb(194, 107, 107);
 }
 .blog-btn:hover{
-   background-color:#F46A6A;
    color:#fff;
 }
 .icon-bar{
