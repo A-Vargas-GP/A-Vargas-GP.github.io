@@ -48,16 +48,16 @@
     <!-- Body Begin -->
 
     <div class="text-center -btn-group" role="group">
-      <button onclick = "changeDiv('game-dev-projects')" class="btn btn-secondary" type="button" id="software" autocomplete="off" checked> Software </button>
-      <button class="btn btn-secondary" type="button" id="game-dev" autocomplete="off"> Game Development </button>
-      <button class="btn btn-secondary" type="button" id="three-dimension" autocomplete="off"> 3D Modeling </button>
-      <button class="btn btn-secondary" type="button" id="graphic-design" autocomplete="off"> Graphic Design </button>
+      <button onclick = "changeDiv('game-dev-projects')" class="btn btn-secondary" type="button" id="game-dev" autocomplete="off"> Game Development </button>
+      <button onclick = "changeDiv('software-projects')" class="btn btn-secondary" type="button" id="software" autocomplete="off" checked> Software </button>
+      <button onclick = "changeDiv('three-dim-projects')" class="btn btn-secondary" type="button" id="three-dimension" autocomplete="off"> 3D Modeling </button>
+      <button onclick = "changeDiv('graphic-design-projects')" class="btn btn-secondary" type="button" id="graphic-design" autocomplete="off"> Graphic Design </button>
     </div>
 
     <br>
 
     <section class="dark-sec">
-      <div class="container" id="game-dev-projects" style="display:none;">
+      <div class="container" id="game-dev-projects" style="display:block;">
         <div class="row">
           <div class="col-md-12 text-center style-class">
             <h3>Game Development</h3>
@@ -187,7 +187,6 @@
             </div>
           </div> 
         </div>
-
         <div class="card-deck mb-2 text-center" style="width: 15rem;">
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
@@ -198,6 +197,204 @@
             <div class = "card-body">
               <div class="panel-footer projects-panel-footer text-center">
                 words
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-sec">
+      <div class="container" id="three-dim-projects" style="display:none;">
+        <div class="row">
+          <div class="col-md-12 text-center style-class">
+            <h3>3D Modeling</h3>
+          </div>
+        </div>
+        <div class="card-deck mb-2 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>The Dining Room<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Steampunk Library</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center">
+                <h4>Flower Vases</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="card-deck mb-2 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Individual Hand<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Amazon Box</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center">
+                <h4>Steampunk Assets</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-sec">
+      <div class="container" id="graphic-design-projects" style="display:none;">
+        <div class="row">
+          <div class="col-md-12 text-center style-class">
+            <h3>Graphic Design</h3>
+          </div>
+        </div>
+        <div class="card-deck mb-2 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Nemenberg<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>HomeSafe</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center">
+                <h4>Scavenger Hunt Case Study</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="card-deck mb-2 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>BrilliantBooks<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Making Smoothies</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center">
+                <h4>PlantMe-NJ</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="card-deck mb-2 text-center" style="width: 30rem;">
+          <div class="card mb-4 shadow-sm" >
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>User Screen Variety<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Music Interaction</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
               </div>
             </div>
           </div> 

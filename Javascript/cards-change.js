@@ -1,20 +1,10 @@
 function changeDiv(curr_val) {
-
-    console.log("curr val value: " + curr_val==='game-dev-projects');
-    console.log("before game dev section style: " + document.getElementById("game-dev-projects").style.display);
-
     var sections = document.querySelectorAll('.container');
     sections.forEach(function(section) {
         section.style.display = 'none';
     });
 
-    if (curr_val==='game-dev-projects')
-    {
-        document.getElementById("game-dev-projects").style.display = "block";
-    }
-
-    console.log("after game dev section style: " + document.getElementById("game-dev-projects").style.display);
-
+    document.getElementById(curr_val).style.display = "block";
 }
 
 // const curr_div = document.querySelector(".software");
