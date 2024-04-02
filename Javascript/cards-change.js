@@ -7,6 +7,7 @@ function changeDiv(curr_val) {
     document.getElementById(curr_val).style.display = "block";
 }
 
+//JQuery Translation Reference: (just in case)
 // const curr_div = document.querySelector(".software");
 
 // $(".software").on('click',function(){
