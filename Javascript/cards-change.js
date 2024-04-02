@@ -1,8 +1,7 @@
 function changeDiv(curr_val) {
 
-    console.log("Changing to section: " + sectionId);
     console.log("curr val value: " + curr_val==='game-dev-projects');
-
+    console.log("before game dev section style: " + document.getElementById("game-dev-projects").style.display);
 
     var sections = document.querySelectorAll('.container');
     sections.forEach(function(section) {
@@ -13,6 +12,9 @@ function changeDiv(curr_val) {
     {
         document.getElementById("game-dev-projects").style.display = "block";
     }
+
+    console.log("after game dev section style: " + document.getElementById("game-dev-projects").style.display);
+
 }
 
 // const curr_div = document.querySelector(".software");
