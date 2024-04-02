@@ -12,6 +12,21 @@
     <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
 
     <title>Amy's Personal Website</title>
+
+    <script>
+      function showDiv(name) {
+        var curr_div = document.getElementById(name);
+        
+        if (curr_div.style.display === "none") 
+        {
+          curr_div.style.display = "block";
+        } 
+        else 
+        {
+          curr_div.style.display = "none";
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- Navigation Bar-->
@@ -37,7 +52,7 @@
           </li>
         </ul>
       </div>
-      <input type="checkbox" checked data-toggle="toggle" data-onstyle="light" data-offstyle="outline-dark" data-on="Light" data-off="Dark" data-size="sm">
+      <input id = "DarkLightToggle"type="checkbox" checked data-toggle="toggle" data-onstyle="light" data-offstyle="outline-dark" data-on="Light" data-off="Dark" data-style="slow" data-size="sm">
     </nav>
     <!-- End Bar -->
 
@@ -48,18 +63,37 @@
 
     <p class="text-center"> This site is a work in progress. Feel free to have a look around!</p>
 
-    <section class="dark-sec" id="projects">
-      <div class="container">
+    <!-- Body Begin -->
+
+    <div class="text-center mxbtn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="software" onclick="showDiv('game-dev-projects')" autocomplete="off" checked> Software
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="game-dev" onclick="showDiv('software-projects')" autocomplete="off"> Game Development
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="3d-model" onclick="showDiv('3d-projects')" autocomplete="off"> 3D Modeling
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="graphic-design" onclick="showDiv('graphic-projects')" autocomplete="off"> Graphic Design
+      </label>
+    </div>
+
+    <br>
+
+    <section class="dark-sec">
+      <div class="container" id="game-dev-projects" style="display:none;">
         <div class="row">
           <div class="col-md-12 text-center style-class">
-            <h3>Top Projects</h3>
+            <h3>Game Development</h3>
           </div>
         </div>
         <div class="card-deck mb-2 text-center">
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
               <div class="panel-body projects-panel-body text-center ">
-                <h4>VR Classroom<h4>
+                <h4>Gift of Pain<h4>
               </div>
             </div>
             <div class = "card-body">
@@ -71,7 +105,7 @@
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
               <div class="panel-body projects-panel-body text-center ">
-                <h4>PlantMe-NJ</h4>
+                <h4>Boxman: The Video Game</h4>
               </div>
             </div>
             <div class = "card-body">
@@ -83,7 +117,7 @@
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
               <div class="panel-body projects-panel-body text-center">
-                <h4>Boxman: The Video Game</h4>
+                <h4>Drawdio</h4>
               </div>
             </div>
             <div class = "card-body">
@@ -93,7 +127,6 @@
             </div>
           </div> 
         </div>
-
         <div class="card-deck mb-2 text-center">
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
@@ -110,7 +143,7 @@
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
               <div class="panel-body projects-panel-body text-center ">
-                <h4>ACCR Pro Bono Breakdown</h4>
+                <h4>The Dining Room (VR)</h4>
               </div>
             </div>
             <div class = "card-body">
@@ -122,12 +155,75 @@
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
               <div class="panel-body projects-panel-body text-center">
-                <h4>Energy Supply Distribution Analysis </h4>
+                <h4>Tic-Tac-Toe </h4>
               </div>
             </div>
             <div class = "card-body">
               <div class="panel-footer projects-panel-footer text-center">
                 Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-sec">
+      <div class="container" id="software-projects" style="display:none;">
+        <div class="row">
+          <div class="col-md-12 text-center style-class">
+            <h3>Software</h3>
+          </div>
+        </div>
+        <div class="card-deck mb-2 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>PlantMe-NJ<h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Watch people develop hardware products.
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>ACCR Pro-Bono Breakdown</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Productivity + Marketing tool
+              </div>
+            </div>
+          </div> 
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center">
+                <h4>Energy Supply Project Analysis</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                Super simple payment portal
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <div class="card-deck mb-2 text-center" style="width: 15rem;">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <div class="panel-body projects-panel-body text-center ">
+                <h4>Nemenberg</h4>
+              </div>
+            </div>
+            <div class = "card-body">
+              <div class="panel-footer projects-panel-footer text-center">
+                words
               </div>
             </div>
           </div> 
