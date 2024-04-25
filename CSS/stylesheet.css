@@ -1,13 +1,3 @@
-/*Meant for Split Dropdown Menus*/
-
-.dropdown-menu {
-  transform: translate(0px, 36px) !important;
-}
-
-.dropdown-toggle-split + .dropdown-menu {
-  transform: translate(0px, 36px) !important;
-}
-
 /* Light/Dark Mode */
 body {
   background-color: white;
