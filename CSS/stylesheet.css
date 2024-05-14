@@ -4,6 +4,16 @@
   object-fit: contain;
 }
 
+.card-projects-preview {
+  width: 100%;
+  height: 25vw;
+  object-fit: contain;
+}
+
+.outline-div {
+  border-style: dotted;
+}
+
 body {
   background-color: white;
   color: black;
