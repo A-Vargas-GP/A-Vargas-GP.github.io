@@ -12,7 +12,7 @@
 # About Me
 Hello there!
 
-My name is Amy, and I am a programmer, designer, and 3D modeler seeking opportunities to utilize my multidisciplinary skill set. I recently graduated with a B.A. in Interactive Multimedia, and I have two minors in Computer Science and Music Technology. My skills include software and game development, 3D modeling, graphic design, video editing, and photo restoration/retouching.
+My name is Amy, and I am a programmer, designer, and 3D modeler seeking opportunities to utilize my multidisciplinary skill set. I graduated with a B.A. in Interactive Multimedia, and I have two minors in Computer Science and Music Technology. My skills include software and game development, 3D modeling, graphic design, video editing, and photo restoration/retouching.
 
 I have experience with various programming languages like C#, Javascript, PostgreSQL, Kotlin, and more. I am also proficient in Adobe Suite programs like Photoshop, Illustrator, Premiere Pro, After Effects, InDesign, and XD. I have also worked with applications like Unity, Android Studio, Autodesk Maya, Git/Github, and ZBrush. In addition, I was a Learning Assistant where I helped teach classes in game development at The College of New Jersey.
 
