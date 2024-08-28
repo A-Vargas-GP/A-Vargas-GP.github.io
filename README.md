@@ -17,7 +17,7 @@ My name is Amy, and I am a programmer, designer, and 3D modeler seeking opportun
 I have experience with various programming languages like C#, Javascript, PostgreSQL, Kotlin, and more. I am also proficient in Adobe Suite programs like Photoshop, Illustrator, Premiere Pro, After Effects, InDesign, and XD. I have also worked with applications like Unity, Android Studio, Autodesk Maya, Git/Github, and ZBrush. In addition, I was a Learning Assistant where I helped teach classes in game development at The College of New Jersey.
 
 # Projects
-- [Nemenberg - WIP](https://www.nemenberg.net)
+- [Nemenberg](https://www.nemenberg.net)
 - [Gift of Pain](https://github.com/Alumni-Dev-Group/Gift-Of-Pain)
 - [Portfolio Website](https://a-vargas-gp.github.io/)
 - [PlantMe-NJ](https://github.com/A-Vargas-GP/PlantMe-NJ_App)
