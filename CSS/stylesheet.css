@@ -19,9 +19,14 @@ body {
   color: black;
 }
 
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
 .dark-mode {
-  color:white;
   background-color:#000;
+  color:white;
 }
 
 .about-me {
