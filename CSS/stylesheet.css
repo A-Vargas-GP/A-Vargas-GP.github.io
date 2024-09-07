@@ -13,8 +13,21 @@
 .outline-div {
   border-style: dotted;
 }
+/* HEX COLORS:
+  op 1
+  #355070 - dark blue
+  #4ea5d9 - blue
+  #a8d5e2 - light blue
+  #122c34 - black
 
-body {
+  op 2
+  #bdd4e7 - light blue
+  #aab9cf - light purple
+  #deefb7 - light green
+  #212227 - black
+*/
+
+.navbar-custom {
   background-color: white;
   color: black;
 }
@@ -22,6 +35,11 @@ body {
 .light-mode {
   background-color: white;
   color: black;
+
+  /*
+  background-color: #deefb7;
+  color: #212227; 
+  */
 }
 
 .dark-mode {
