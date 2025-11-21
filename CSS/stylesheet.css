@@ -1,60 +1,327 @@
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: contain;
+/* FONT & SIZES:
+  Font: Roboto
+  Font: Roboto Bold
+  
+  Heading 1: 48px
+  Heading 2: 24px
+  Heading 3: 18px
+  Body Text: 14px
+  Sub Text: 12px
+*/
+
+/* -- ROBOTO -- */
+
+@font-face {
+  font-family: Roboto;
+  src: url(../Fonts/Roboto-VariableFont_wdth,wght.ttf); /* url of the font */
 }
+
+@font-face {
+  font-family: Roboto_Italic; /* set name */
+  src: url(../Fonts/Roboto-Italic-VariableFont_wdth,wght.ttf); /* url of the font */
+}
+
+/* -- INTER -- */
+
+@font-face {
+  font-family: Inter_Italic; /* set name */
+  src: url(../Fonts/Inter-Italic-VariableFont_opsz,wght.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: Inter; /* set name */
+  src: url(../Fonts/Inter-VariableFont_opsz,wght.ttf); /* url of the font */
+  font-weight: 400;
+}
+
+body {
+  background-color: #F1FAEE !important;
+}
+
+/* HEX COLORS:
+  #F1FAEE - light yellow
+  #E63946 - red
+  #A8DADC - light blue
+  #457B9D - medium blue
+  #1D3557 - dark blue
+  #000000 - black
+*/
+
+/* -- NAV BAR -- */
+
+.navbar {
+  /* border-bottom: 2px solid #000000; */
+}
+
+.navbar_links {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1D3557 !important;
+}
+
+.navbar_links:hover{
+  color: #E63946 !important;
+}
+
+.navbar_drop {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  color: #E63946 !important;
+}
+
+.navbar_drop:hover {
+  background-color: #A8DADC !important;
+  color: #1D3557 !important;
+}
+
+/* -- TEXT STYLING -- */
+
+h1 {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 48px;
+  color: #000000 !important;
+  text-shadow: 2px 2px #E63946;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #1D3557 !important;
+  font-weight: 1000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #E63946;
+}
+
+/* -- HOME PAGE - TITLE ANIMATION AND DETAILS -- */
+
+.shadow-dance-text {
+  color: #F1FAEE;
+  text-shadow: 4px 4px 0 #E63946, 8px 8px 0 #A8DADC;
+  animation: shadow-dance 2s;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 4px 4px 0 #E63946, 8px 8x 0 #A8DADC;
+    }
+    50% {
+        text-shadow: -4px -4px 0 #A8DADC, -8px -8px 0 #E63946;
+    }
+}
+
+.bio-text {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* -- HOME PAGE - BUTTON DETAILS -- */
+
+.btn-clr {
+  color: #F1FAEE;
+  background-color: #E63946;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 8px 8px #A8DADC;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #1D3557;
+}
+
+.btn-clr:hover {
+  color: #E63946;
+  background-color: #A8DADC;
+  box-shadow: 8px 8px #1D3557;
+  border-color: #E63946;
+}
+
+.btn-clr:active {
+  transform: translateY(4px);
+}
+
+/* -- CARD DETAILS -- */
+
+.card {
+  background-color: #A8DADC;
+  box-shadow: 8px 8px #E63946;
+  border-color: #E63946;
+  border-width: medium;
+  height: auto;
+}
+
+/* -- HOME PAGE - CARD DETAILS -- */
+
+.card-index:hover {
+  transform: translateY(8px);
+}
+
+.card-img-div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 200px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit:scale-down;
+}
+
+.card-title-link {
+  color: #E63946;
+  text-decoration: none !important;
+}
+
+.card-title-link:hover {
+  color:#1D3557;
+}
+
+.card-body {
+  background-color:#A8DADC;
+  margin: 0;
+}
+
+.card-text.mb-0 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+
+.card-footer {
+  background-color:#A8DADC;
+  border-top-color: #E63946;
+}
+
+.fa {
+  text-decoration: none !important;
+}
+
+/* -- ABOUT ME - TEXT STYLING -- */
+
+.about-me-style {
+  background-color: #A8DADC;
+  box-shadow: 8px 8px #E63946;
+  border: 2px solid #E63946;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.about-me-style p {
+  color: #000000;
+}
+
+.figure-caption {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  color: #1D3557;
+}
+
+hr {
+  border-top: 10px solid #E63946;
+  width: 75%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.social-media {
+  margin-top: 25px;
+}
+
+/* -- PROJECTS PAGE - CARD DETAILS -- */
 
 .card-projects-preview {
   width: 100%;
-  height: 25vw;
-  object-fit: contain;
+  height: 290px;
+  border-radius: 7px;
+  object-fit:scale-down;
 }
 
-.outline-div {
-  border-style: dotted;
-}
-/* HEX COLORS:
-  op 1
-  #355070 - dark blue
-  #4ea5d9 - blue
-  #a8d5e2 - light blue
-  #122c34 - black
-
-  op 2
-  #bdd4e7 - light blue
-  #aab9cf - light purple
-  #deefb7 - light green
-  #212227 - black
-*/
-
-.navbar-custom {
-  background-color: white;
-  color: black;
+.full-card-project {
+  background-color: #1D3557 !important;
+  box-shadow: 8px 8px #A8DADC;
+  border-radius: 10px;
+  border-color: #1D3557;
+  border-width: medium;
 }
 
-.light-mode {
-  background-color: white;
-  color: black;
+/* -- PROJECTS - TEXT STYLING -- */
 
-  /*
-  background-color: #deefb7;
-  color: #212227; 
-  */
+.project-info-style {
+  background-color: #A8DADC;
+  box-shadow: 8px 8px #E63946;
+  border: 2px solid #E63946;
+  border-radius: 10px;
 }
 
-.dark-mode {
-  background-color:#000;
-  color:white;
+.project-info-style:hover {
+  transform: translateY(8px);
 }
 
-.about-me {
-  font-size: 14px;
+.project-info-style h3 {
+  color: #E63946 !important;
+}
+
+.project-info-style p {
+  color: #000000;
+}
+
+.project-program-style {
+  background-color: #F1FAEE;
+  box-shadow: 8px 8px #A8DADC;
+  border: 2px solid #1D3557;
+  border-radius: 10px;
+  padding: 1%;
+  width: fit-content;
+}
+
+/* -- PROJECT CAROUSEL -- */
+
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(25%);
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  filter: invert(75%);
+}
+
+/* -- FOOTER -- */
+
+.footer-content {
+  background-color: #E63946; 
+  margin-top: 100px;
+}
+
+.footer-text {
+  color: #F1FAEE;
+  text-shadow: 2px 2px #1D3557;
 }
 
 .figure-caption {
   font-size: 12px;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    filter: invert(100%);
 }

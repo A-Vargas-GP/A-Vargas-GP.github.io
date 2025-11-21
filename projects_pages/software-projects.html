@@ -20,51 +20,46 @@
   </head>
   <body>
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class = "navbar-brand" href="../index.html">
-        <span><img alt = "Brand" src = "../images/profilePicALT-noName.png"></span>
-          Amy Vargas
+        <img alt = "Brand" src = "../images/profilePicALT-noName.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
       <div class="collapse navbar-collapse" id = "navbar">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html"> Home <span class="sr-only"></span></a>
+          <li class="nav-item active">
+            <a class="nav-link navbar_links" href="../index.html"> Home <span class="sr-only"></span></a>
           </li>
           <li class = "nav-item">
-            <a class = "nav-link" href="../about_me.html">About Me</a>
+            <a class = "nav-link navbar_links" href="../about_me.html">About Me</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </a>
+          <li class="nav-item dropdown navbar_links">
+            <a class="nav-link dropdown-toggle navbar_links" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/projects_pages/game-dev-projects.html">Game Development</a>
-              <a class="dropdown-item" href="/projects_pages/software-projects.html">Software</a>
-              <a class="dropdown-item" href="/projects_pages/3d-modeling-projects.html">3D Modeling</a>
-              <a class="dropdown-item" href="/projects_pages/graphic-design-projects.html">Graphic Design</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/game-dev-projects.html">Game Development</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/software-projects.html">Software</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/3d-modeling-projects.html">3D Modeling</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/graphic-design-projects.html">Graphic Design</a>
             </div>
           </li>
         </ul>
-        <input id = "dark-light-event" type="checkbox" checked data-toggle="toggle" data-onstyle="light" data-offstyle="outline-dark" data-on="Light" data-off="Dark" data-style="slow" data-size="sm">
       </div>
     </nav>
     <!-- End Bar -->
 
     <!-- Body Text-->
     <main>
-      <h1 class="text-center">Software Development Projects</h1>
-      <p class="text-center"> Dates: 2022 to Current </p>
-      <hr>  
-
+      <h1 class="text-center shadow-dance-text mb-0">Software Development Projects</h1>
+      <hr class="mt-4">
       <!-- Body Begin -->
-      <section class="dark-sec">
+      <section>
         <div class="container-fluid" id="software-projects">
-          <div class = "row d-flex justify-content-center my-5" id = "nemenberg">
-            <div class = "col-4">
-              <p> Sept 2023 - April 2024 </p>
-              <div class="card shadow-sm">
+          <div class = "row justify-content-center align-items-center m-5" id = "nemenberg">
+            <div class = "col-4 mr-4">
+              <h3 style = "color: #E63946 !important;"> Sept 2023 - April 2024 </h3>
+              <div class="card full-card-project" style="background-color: #E63946">
                 <div id="nemenbergCarouselControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -91,35 +86,35 @@
                 </div>
               </div>
               <br>
-              <div class = "d-flex justify-content-center">
+              <div class = "d-flex justify-content-center m-2 project-program-style mx-auto">
                 <img src="https://skillicons.dev/icons?i=wordpress" width="25" height="25"/>
               </div>
             </div>
-            <div class = "col-5 mx-5">
-              <h4 class = "text-center"> Nemenberg </h4>
+            <div class = "col-5 m-2 project-info-style">
+              <h2 class = "text-center"> Nemenberg </h2>
               <p> 
                 Nemenberg is a dynamic WordPress website crafted for a Guatemala-based IT business, serving as a central hub for
                 showcasing the company's mission, services, and expertise. Through its design and organization, it enables visitors
                 to explore the company's offerings and capabilities, effectively reflecting its commitment to excellence in the IT industry.
               </p>
               <br>
-              <p class = "m-0" style="font-weight: bold;"> Web Developer </p>
+              <h3 class = "m-0"> Web Developer </h3>
               <p> 
                 • Developed and maintained a WordPress website for a Guatemalan IT business, enhancing its digital presence.
                 <br> • Collaborated closely with the owner to identify and implement website features aligned with business goals.
                 <br> • Integrated language translation feature enabling seamless Spanish-English communication.
                 <br> • Provided ongoing technical support and user experience enhancements to optimize website performance.
               </p>
-              <a class="fa fa-globe d-flex justify-content-center" href="https://www.nemenberg.net" style="color:#000000;" role="button"> </a>
+              <a class="fa fa-globe d-flex justify-content-center m-3" href="https://www.nemenberg.net" style="color:#000000;" role="button"> </a>
             </div>
           </div>
 
           <br>
 
-          <div class = "row d-flex justify-content-center my-5" id = "plantme-nj">
-            <div class = "col-4">
-              <p> Oct 2022 - June 2023 </p>
-              <div class="card shadow-sm">
+          <div class = "row justify-content-center align-items-center m-5" id = "plantme-nj">
+            <div class = "col-4 mr-4">
+              <h3 style = "color: #E63946 !important;"> Oct 2022 - June 2023 </h3>
+              <div class="card full-card-project" style="background-color: #E63946">
                 <div id="plantmeCarouselControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -155,28 +150,28 @@
                 </div>
               </div>
               <br>
-              <div class = "d-flex justify-content-center">
+              <div class = "d-flex justify-content-center m-2 project-program-style mx-auto">
                 <img class = "mx-2" src="../images/logos/android-studio-logo.png" width="25" height="25"/>
                 <img class = "mx-2" src="https://user-images.githubusercontent.com/25181517/185062810-7ee0c3d2-17f2-4a98-9d8a-a9576947692b.png" alt="kotlin" width="25" height="25"/>
                 <img class = "mx-2" src="https://skillicons.dev/icons?i=sqlite" width="25" height="25"/>
               </div>
             </div>
-            <div class = "col-5 mx-5">
-              <h4 class = "text-center"> PlantMe-NJ </h4>
+            <div class = "col-5 m-2 project-info-style">
+              <h2 class = "text-center"> PlantMe-NJ </h2>
               <p> 
                 PlantMe-NJ, an Android gardening app tailored for New Jersey, aims to enhance planting seasons. 
                 It includes a personalized plant selection quiz based on user preferences and local conditions, 
                 alongside real-time weather updates. Additionally, an AR feature was planned to visualize potential plants in chosen locations.
               </p>
               <br>
-              <p class = "m-0" style="font-weight: bold;"> Mobile Developer </p>
+              <h3 class = "m-0"> Mobile Developer </h3>
               <p> 
                 • Spearheaded the development of PlantMe-NJ, an Android application tailored to the gardening needs of New Jersey residents.
                 <br> • Coded in Kotlin using Android development tools in Android Studio, featuring an SQLite backend and WeatherAPI integration.
                 <br> • Designed a personalized plant recommendation system using Typeform, basing environmental factors to suggest ideal plants for individual gardeners.
                 <br> • Conducted extensive research on gardening information, including plant varieties, planting techniques, and maintenance tips, to ensure the accuracy of content.
               </p>
-              <div class = "d-flex justify-content-center">
+              <div class = "d-flex justify-content-center m-3">
                 <a class="fa fa-github mx-2" href="https://github.com/A-Vargas-GP/PlantMe-NJ_App" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://www.immseniorshow.com/amy-vargas" style="color:#000000;" role="button"> </a>              
               </div>
@@ -185,10 +180,10 @@
 
           <br>
 
-          <div class = "row d-flex justify-content-center my-5" id = "accr">
-            <div class = "col-4">
-              <p> Aug 2022 - Dec 2022 </p>
-              <div class="card shadow-sm">
+          <div class = "row justify-content-center align-items-center m-5" id = "accr">
+            <div class = "col-4 mr-4">
+              <h3> Aug 2022 - Dec 2022 </h3>
+              <div class="card full-card-project" style="background-color: #E63946">
                 <div id="accrCarouselControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -218,14 +213,14 @@
                 </div>
               </div>
               <br>
-              <div class = "d-flex justify-content-center">
+              <div class = "d-flex justify-content-center m-2 project-program-style mx-auto">
                 <img class="mx-2" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="visualstudiocode" width="25" height="25"/>
                 <img class="mx-2" src="https://user-images.githubusercontent.com/25181517/192603748-3ac17112-3653-4257-80da-a57334b11411.png" alt="ruby-rails" width="25" height="25"/>
                 <img class="mx-2" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png" alt="postgresql" width="25" height="25"/>
               </div>
             </div>
-            <div class = "col-5 mx-5">
-              <h4 class = "text-center" > ACCR Pro-Bono Breakdown </h4>
+            <div class = "col-5 m-2 project-info-style">
+              <h2 class = "text-center" > ACCR Pro-Bono Breakdown </h2>
               <p> 
                 The ACCR Pro-Bono Breakdown is an interactive webpage for Atlantic Center for Capital Representation (ACCR) staff, monitoring and tracking 
                 pro-bono hours and service details. The website allows for easy editing, storage, and export of pro-bono data. Supported by a robust database, 
@@ -233,8 +228,8 @@
                 efficiency in reporting and analysis processes for the organization.
               </p>
               <br>
-              <p class = "m-0" style="font-weight: bold;"> Software Developer </p>
-              <p> 
+              <h3 class = "m-0" style="font-weight: bold;"> Software Developer </h3>
+              <p class = "pb-3"> 
                 • Collaborated with a team of five individuals to record and export pro-bono hours as a CSV for inclusion in a grant proposal and to 
                 showcase to the organization's donors.
                 <br> • Project uses CRUD operations to enter, store, search, and discard pro-bono hour entries using Ruby on Rails and a PostgreSQL database 
@@ -248,10 +243,10 @@
 
           <br>
 
-          <div class = "row d-flex justify-content-center my-5" id = "espa">
-            <div class = "col-4">
-              <p> Jan 2022 - May 2022 </p>
-              <div class="card shadow-sm">
+          <div class = "row justify-content-center align-items-center m-5" id = "espa">
+            <div class = "col-4 mr-4">
+              <h3 style = "color: #E63946 !important;"> Jan 2022 - May 2022 </h3>
+              <div class="card full-card-project">
                 <div id="espaCarouselControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -275,7 +270,7 @@
                 </div>
               </div>
               <br>
-              <div class = "d-flex justify-content-center">
+              <div class = "d-flex justify-content-center m-2 project-program-style mx-auto">
                 <img class="mx-2" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="visualstudiocode" width="25" height="25"/>
                 <img class="mx-2" src="https://skillicons.dev/icons?i=flask" alt="flask" width="25" height="25"/>
                 <img class="mx-2" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png" alt="postgresql" width="25" height="25"/>
@@ -283,8 +278,8 @@
                 <img class="mx-2" src="https://skillicons.dev/icons?i=bash" alt="bash" width="25" height="25"/>
               </div>
             </div>
-            <div class = "col-5 mx-5">
-              <h4 class = "text-center"> Energy Supply Project Analysis </h4>
+            <div class = "col-5 m-2 project-info-style">
+              <h2 class = "text-center"> Energy Supply Project Analysis </h2>
               <p> 
                 Energy Supply Project Analysis (ESPA) is a web application that enables users to track energy trends between Natural Gas/Fuel Oil and
                 Electric Grid power sources at The College of New Jersey's power plant. Users can observe seasonal fluctuations in energy usage over time,
@@ -292,7 +287,7 @@
                 application, allowing users to optimize energy usage through a variety of time intervals.
               </p>
               <br>
-              <p class = "m-0" style="font-weight: bold;"> Software Developer </p>
+              <h3 class = "m-0" style="font-weight: bold;"> Software Developer </h3>
               <p> 
                 • Coordinated with a team of seven individuals to focus on the energy supply distribution at The College of New Jersey.
                 <br> • Project converted and organized Excel files into CSV files using Python and Shell and utilized a Flask backend using a PostgreSQL database with HTML, 
@@ -300,7 +295,7 @@
                 <br> • Had regular meetings with stakeholders to discuss project progress, gather input, and identify areas for improvement.
                 <br> • Designed the database structure through the use of relational schemas and ER diagrams.
               </p>
-              <a class="fa fa-github d-flex justify-content-center" href="https://github.com/A-Vargas-GP/Energy-Supply-Project-Analysis-ESPA" style="color:#000000;" role="button"> </a>
+              <a class="fa fa-github d-flex justify-content-center m-3" href="https://github.com/A-Vargas-GP/Energy-Supply-Project-Analysis-ESPA" style="color:#000000;" role="button"> </a>
             </div>
           </div>
         </div>
@@ -310,10 +305,10 @@
 
     <!-- Footer Box-->
     <footer> 
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        <p> Made using HTML, CSS, and Bootstrap</p>
+      <div class="footer-content text-center p-4">
+        <p class = "footer-text"> Made using HTML, CSS, and Bootstrap</p>
         <!-- FIX: Use JS to display the current year date-->
-        <p> © 2024 </p>
+        <p class = "footer-text"> © 2025 </p>
       </div>    
     </footer>
     <!-- End Footer Box-->

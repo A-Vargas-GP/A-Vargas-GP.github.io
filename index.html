@@ -20,283 +20,261 @@
   </head>
   <body>
     <!-- Navigation Bar-->
-    <!--     <nav class="navbar navbar-expand-lg navbar-light navbar-custom"> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class = "navbar-brand" href="index.html">
-        <span><img alt = "Brand" src = "images/profilePicALT-noName.png"></span>
-          Amy Vargas
+        <img alt = "Brand" src = "images/large_profilePicALT-noName.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
       <div class="collapse navbar-collapse" id = "navbar">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"> Home <span class="sr-only"></span></a>
+            <a class="nav-link navbar_links" href="index.html"> Home <span class="sr-only"></span></a>
           </li>
           <li class = "nav-item">
-            <a class = "nav-link" href="about_me.html">About Me</a>
+            <a class = "nav-link navbar_links" href="about_me.html">About Me</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </a>
+          <li class="nav-item dropdown navbar_links">
+            <a class="nav-link dropdown-toggle navbar_links" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/projects_pages/game-dev-projects.html">Game Development</a>
-              <a class="dropdown-item" href="/projects_pages/software-projects.html">Software</a>
-              <a class="dropdown-item" href="/projects_pages/3d-modeling-projects.html">3D Modeling</a>
-              <a class="dropdown-item" href="/projects_pages/graphic-design-projects.html">Graphic Design</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/game-dev-projects.html">Game Development</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/software-projects.html">Software</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/3d-modeling-projects.html">3D Modeling</a>
+              <a class="dropdown-item navbar_drop" href="/projects_pages/graphic-design-projects.html">Graphic Design</a>
             </div>
           </li>
         </ul>
-        <input id = "dark-light-event" type="checkbox" checked data-toggle="toggle" data-onstyle="light" data-offstyle="outline-dark" data-on="Light" data-off="Dark" data-style="slow" data-size="sm">
       </div>
     </nav>
     <!-- End Bar -->
 
     <!-- Body Text-->
     <main>
-      <h1 class="text-center">Amy Vargas</h1>
-      <p class="text-center"> Programmer, Designer, 3D Modeler </p>
-      <hr>
-      <p class="text-center"> This site is a work in progress. Feel free to have a look around!</p>
+      <h1 class="text-center mb-0 shadow-dance-text"> AMY VARGAS </h1>
+      <p class="text-center bio-text">
+        Programmer/IT Technician/Designer 
+      </p>
 
-      <!-- TESTING TOGGLE EVENTS: -->
-      <!-- <div id="console-event"> Toggle: </div> -->
+      <br>
 
       <!-- Body Begin -->
+       
+      <h2 class="text-center"> PROJECTS </h2>
+
       <div class="text-center -btn-group" role="group">
-        <button onclick = "changeDiv('game-dev-projects')" class="btn btn-secondary m-2" type="button" id="game-dev" autocomplete="off"> Game Development </button>
-        <button onclick = "changeDiv('software-projects')" class="btn btn-secondary m-2" type="button" id="software" autocomplete="off" checked> Software </button>
-        <button onclick = "changeDiv('three-dim-projects')" class="btn btn-secondary m-2" type="button" id="three-dimension" autocomplete="off"> 3D Modeling </button>
-        <button onclick = "changeDiv('graphic-design-projects')" class="btn btn-secondary m-2" type="button" id="graphic-design" autocomplete="off"> Graphic Design </button>
+        <button onclick = "changeDiv('game-dev-projects')" class="btn btn-clr m-2" type="button" id="game-dev" autocomplete="off"> Game Development </button>
+        <button onclick = "changeDiv('software-projects')" class="btn btn-clr m-2" type="button" id="software" autocomplete="off" checked> Software </button>
+        <button onclick = "changeDiv('three-dim-projects')" class="btn btn-clr m-2" type="button" id="three-dimension" autocomplete="off"> 3D Modeling </button>
+        <button onclick = "changeDiv('graphic-design-projects')" class="btn btn-clr m-2" type="button" id="graphic-design" autocomplete="off"> Graphic Design </button>
       </div>
 
       <br>
 
-      <section class="dark-sec">
+      <section>
         <div class="container" id="game-dev-projects" style="display:block;">
-          <div class="row">
-            <div class="col-md-12 my-2 text-center style-class">
-              <h3>Game Development</h3>
-            </div>
-          </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/Gift-of-pain-cover.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center"> 
-                  <h4> <a href="projects_pages/game-dev-projects.html#giftOfPain">Gift of Pain</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/Gift-of-pain-cover.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#giftOfPain">Gift of Pain</a> </h3>
+                <div class="card-text mb-0">
                   Play as Mall Santa, and brawl with mischevious kids.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Gift-Of-Pain" style="color:#000000;" role="button"> </a>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/boxman-cover.png" alt="Card cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/game-dev-projects.html#boxman">Boxman: The Video Game</a> </h4>
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/boxman-cover.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#boxman">Boxman: The Video Game</a> </h3>
+                <div class="card-text mb-0">
+                  Save the galaxy, uncover mysteries, and face two perspectives duals as Boxman!
                 </div>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
-                  Save the galaxy, uncover mysteries, and face challenges in dual perspectives as Boxman!
-                </div>
-                <br>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Boxman_Game" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://play.unity.com/mg/other/boxmanwebgl" style="color:#000000;" role="button"> </a>
               </div>
-            </div> 
+            </div>
           </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/Drawdio-Cover.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/game-dev-projects.html#drawdio">Drawdio</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/Drawdio-Cover.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#drawdio">Drawdio</a> </h3>
+                <div class="card-text mb-0">
                   Mobile Drawing Application where users build visual & sonic environments.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Drawdio-Application" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://a-varg.itch.io/drawdio" style="color:#000000;" role="button"> </a>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/Dining_Room_VR.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center ">
-                  <h4> <a href="projects_pages/game-dev-projects.html#dining-room-vr">The Dining Room (VR)</a> </h4>
-                </div>
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/Dining_Room_VR.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#dining-room-vr">The Dining Room (VR)</a> </h3>
+                <div class="card-text mb-0">
                   Be immersed in a nostalgic VR environment. Interact and teleport within your surroundings.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Dining-Room-VR" style="color:#000000;" role="button"> </a>
               </div>
-            </div> 
+            </div>
           </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/Baking-Woods.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/game-dev-projects.html#baking-woods">Baking In The Woods</a> </h4>
-                </div>
+
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/Baking-Woods.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#baking-woods">Baking In The Woods</a> </h3>
+                <div class="card-text mb-0">
                   Bake bread in a serene forest cabin with gathered ingredients.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Baking_In_The_Woods" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://a-varg.itch.io/baking-in-the-woods" style="color:#000000;" role="button"> </a>
               </div>
-            </div>  
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/game/tic-tac-toe.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/game-dev-projects.html#tic-tac-toe">Tic-Tac-Toe</a> </h4>
-                </div>
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/game/tic-tac-toe.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/game-dev-projects.html#tic-tac-toe">Tic-Tac-Toe</a> </h3>
+                <div class="card-text mb-0">
                   Classic game of tic-tac-toe where Xs vs. Os.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Tic-Tac-Toe" style="color:#000000;" role="button"> </a>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="dark-sec">
+      <section>
         <div class="container" id="software-projects" style="display:none;">
-          <div class="row">
-            <div class="col-md-12 my-2 text-center style-class">
-              <h3>Software</h3>
-            </div>
-          </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/software/Nemenberg-Index.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/software-projects.html#nemenberg">Nemenberg</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/software/Nemenberg-Index.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/software-projects.html#nemenberg">Nemenberg</a> </h3>
+                <div class="card-text mb-0">
                   WordPress site that showcases an IT business' services using language translation options.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.nemenberg.net" style="color:#000000;" role="button"> </a>
               </div>
-            </div>
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/software/plantme_inverted_color.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/software-projects.html#plantme-nj">PlantMe-NJ</a> </h4>
-                </div>
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/software/plantme_inverted_color.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/software-projects.html#plantme-nj">PlantMe-NJ</a> </h3>
+                <div class="card-text mb-0">
                   Gardening app for NJ crops, seasonal tips for success.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/PlantMe-NJ_App" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://www.immseniorshow.com/amy-vargas" style="color:#000000;" role="button"> </a>
               </div>
             </div>
           </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/software/accr-page.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/software-projects.html#accr">ACCR Pro-Bono Breakdown</a> </h4>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/software/accr-page.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/software-projects.html#accr">ACCR Pro-Bono Breakdown</a> </h3>
+                <div class="card-text mb-0">
+                  Pro-bono Hour tracking system with editable, storable, and exportable service details.
                 </div>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
-                  Pro-bono Hour tracking system with editable, storable, and exportable service details.              </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://www.nemenberg.net" style="color:#000000;" role="button"> </a>
               </div>
-            </div>
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/software/ESPA-home-page.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/software-projects.html#espa">Energy Supply Project Analysis</a> </h4>
-                </div>
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/software/ESPA-home-page.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/software-projects.html#espa">Energy Supply Project Analysis</a> </h3>
+                <div class="card-text mb-0">
                   Track energy trends with Gas vs Oil vs Electric grid usage, promoting an efficiency analysis.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-github" href="https://github.com/A-Vargas-GP/Energy-Supply-Project-Analysis-ESPA" style="color:#000000;" role="button"> </a>
               </div>
-            </div>  
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="dark-sec">
+      <section>
         <div class="container" id="three-dim-projects" style="display:none;">
-          <div class="row">
-            <div class="col-md-12 my-2 text-center style-class">
-              <h3>3D Modeling</h3>
-            </div>
-          </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/3d/tinkerer-room.jpg" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#tinkerer-library">Tinkerer Library</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/3d/tinkerer-room.jpg" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#tinkerer-library">Tinkerer Library</a> </h3>
+                <div class="card-text mb-0">
                   Steampunk-inspired environment scene reflective of a robotic character and its personality.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.artstation.com/artwork/LRgmGk" style="color:#000000;" role="button"> </a>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
+            <div class="card d-flex flex-column mb-4 card-index">
               <div id="threeDimCarouselControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-1.jpg" alt="First slide">
+                  <div class="card-img-div carousel-item active">
+                    <img class = "card-img" src="images/cards/3d/steampunk-1.jpg" alt="First slide">
                   </div>
-                  <div class="carousel-item">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-2.jpg" alt="Second slide">
+                  <div class="card-img-div carousel-item">
+                    <img class = "card-img" src="images/cards/3d/steampunk-2.jpg" alt="Second slide">
                   </div>
-                  <div class="carousel-item">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-3.jpg" alt="Third slide">
+                  <div class="card-img-div carousel-item">
+                    <img class = "card-img" src="images/cards/3d/steampunk-3.jpg" alt="Third slide">
                   </div>
-                  <div class="carousel-item">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-4.jpg" alt="Fourth slide">
+                  <div class="card-img-div carousel-item">
+                    <img class = "card-img" src="images/cards/3d/steampunk-4.jpg" alt="Fourth slide">
                   </div>
-                  <div class="carousel-item">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-5.jpg" alt="Fifth slide">
+                  <div class="card-img-div carousel-item">
+                    <img class = "card-img" src="images/cards/3d/steampunk-5.jpg" alt="Fifth slide">
                   </div>
-                  <div class="carousel-item">
-                    <img class = "card-img-top" src="images/cards/3d/steampunk-6.jpg" alt="Sixth slide">
+                  <div class="card-img-div carousel-item">
+                    <img class = "card-img" src="images/cards/3d/steampunk-6.jpg" alt="Sixth slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#threeDimCarouselControls" role="button" data-slide="prev">
@@ -308,219 +286,221 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#steampunk-assets">Steampunk Assets</a> </h4>
-                </div>
-              </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#steampunk-assets">Steampunk Assets</a> </h3>
+                <div class="card-text mb-0">
                   Props designed for a steampunk-inspired environment scene.
                 </div>
-                <br>
-                <a class="fa fa-globe mx-2" href="https://www.artstation.com/artwork/elmxo3" style="color:#000000;" role="button"> </a>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://www.artstation.com/artwork/elmxo3" style="color:#000000;" role="button"> </a>
                 <a class="fa fa-globe mx-2" href="https://www.artstation.com/artwork/rJlGz2" style="color:#000000;" role="button"> </a>
-                <a class="fa fa-globe mx-2" href="https://www.artstation.com/artwork/ao0J08" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe" href="https://www.artstation.com/artwork/ao0J08" style="color:#000000;" role="button"> </a>
               </div>
             </div>
           </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/3d/dining-room.jpg" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#the-dining-room">The Dining Room</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/3d/dining-room.jpg" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#the-dining-room">The Dining Room</a> </h3>
+                <div class="card-text mb-0">
                   Environmental model of a Victorian-inspired dining room.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.artstation.com/artwork/D5wlx9" style="color:#000000;" role="button"> </a>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/3d/hand-photo.jpg" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#hand">Individual Hand</a> </h4>
-                </div>
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/3d/hand-photo.jpg" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#hand">Individual Hand</a> </h3>
+                <div class="card-text mb-0">
                   Realistic human hand designed using personal reference.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.artstation.com/artwork/Ge89vQ" style="color:#000000;" role="button"> </a>
               </div>
             </div>
           </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/3d/amazon_perspective.jpg" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#amazon">Amazon Box</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/3d/amazon_perspective.jpg" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#amazon">Amazon Box</a> </h3>
+                <div class="card-text mb-0">
                   Model and rig of an Amazon delivery box.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.artstation.com/artwork/OGmO3b" style="color:#000000;" role="button"> </a>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/3d/four_flowers_vase.jpg" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/3d-modeling-projects.html#flower-vases">Flower Vases</a> </h4>
-                </div>
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/3d/four_flowers_vase.jpg" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/3d-modeling-projects.html#flower-vases">Flower Vases</a> </h3>
+                <div class="card-text mb-0">
                   Complex and intricate model of a realistic flower-filled vase.
                 </div>
-                <br>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
                 <a class="fa fa-globe" href="https://www.artstation.com/artwork/n0E1d6" style="color:#000000;" role="button"> </a>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="dark-sec">
+      <section>
         <div class="container" id="graphic-design-projects" style="display:none;">
-          <div class="row">
-            <div class="col-md-12 my-2 text-center style-class">
-              <h3>Graphic Design</h3>
-            </div>
-          </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Contact Us Page.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#nemenberg">Nemenberg</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Contact Us Page.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#nemenberg">Nemenberg</a> </h3>
+                <div class="card-text mb-0">
                   UI/UX IT Business Website Design.
                 </div>
               </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://www.nemenberg.net" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe mx-2" href="https://www.figma.com/proto/JwTLla0F3XYDV0PYGMnzZ1/Nemenberg-UI%2FUX?node-id=0-1&t=zgd15M0VlUxX6jYd-1" style="color:#000000;" role="button"> </a>              </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Phone - Cam Info – 1.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#HomeSafe">HomeSafe</a> </h4>
-                </div>
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Phone - Cam Info – 1.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#HomeSafe">HomeSafe</a> </h3>
+                <div class="card-text mb-0">
                   Home Security Mobile App UI Designs
                 </div>
               </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1gePI55lBpM3wjiDZD9mwboMPneM7tgGt/view?usp=sharing" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe mx-2" href="https://docs.google.com/presentation/d/1kqGDXGOkbhtgdy_qTxOaktEXOvs6qOzv/pub?start=true&loop=true&delayms=30000" style="color:#000000;" role="button"> </a>
+              </div>
             </div>
           </div>
-          <div class="card-deck mb-2 text-center"> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/presentation-1.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#scavenger-hunt-case-study">Scavenger Hunt Case Study</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/presentation-1.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#scavenger-hunt-case-study">Scavenger Hunt Case Study</a> </h3>
+                <div class="card-text mb-0">
                   Case Study Presentation on an visitor's app mock-up for Adventure Aquarium.
                 </div>
               </div>
-            </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Web 1920 – Individual Book.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#brilliant-books">BrilliantBooks</a> </h4>
-                </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://docs.google.com/presentation/d/1eQUFyGWSV5C4MJ0pXFGy0YXvgpZFuu4t/pub?start=true&loop=true&delayms=3000" style="color:#000000;" role="button"> </a>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Web 1920 – Individual Book.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#brilliant-books">BrilliantBooks</a> </h3>
+                <div class="card-text mb-0">
                   Reading App that quizzes users, gives rewards, and allows book ratings and reading lists.
                 </div>
               </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://xd.adobe.com/view/82bab23d-5cf8-47f4-b628-6124987cf4f5-d7e9/" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe mx-2" href="https://xd.adobe.com/view/1ca50a3d-18e7-4257-96f3-f71e4c85b426-49f6/" style="color:#000000;" role="button"> </a>
+              </div>
             </div>
           </div>
-          <div class="card-deck mb-2 text-center"> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Charette 1 - Smoothie.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#making-smoothies">Making Smoothies</a> </h4>
-                </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Charette 1 - Smoothie.png" alt="Card image cap">
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#making-smoothies">Making Smoothies</a> </h3>
+                <div class="card-text mb-0">
                   Experience Map that outlines a smoothie-making process
                 </div>
               </div>
-            </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Job Listing.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#user-screen-variety">User Screen Variety</a> </h4>
-                </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1y-aZqI5Z_D_PepacRSrX27xU7aZA5Wx8/view?usp=sharing" style="color:#000000;" role="button"> </a>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Job Listing.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#user-screen-variety">User Screen Variety</a> </h3>
+                <div class="card-text mb-0">
                   UI (Re)Designs for Various Mobile Apps.
                 </div>
               </div>
-            </div> 
-          </div>
-          <div class="card-deck mb-2 text-center">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Home Screen.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#plantme-nj">PlantMe-NJ</a> </h4>
-                </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1Hd4thj7hefMAEUoSfTdBhhAtFwIy0B5T/view?usp=sharing" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe mx-2" href="https://drive.google.com/file/d/181FszUkYNQEprhCwdBo5OtawQev_dt1w/view?usp=sharing" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1OY719GiBgrn0ExxgvWaI_z4lDPdKRI0l/view?usp=sharing" style="color:#000000;" role="button"> </a>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+            </div>
+          </div>
+          <div class="card-deck mb-4">
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Home Screen.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#plantme-nj">PlantMe-NJ</a> </h3>
+                <div class="card-text mb-0">
                   NJ Gardening-based Android App UI Designs
                 </div>
               </div>
-            </div> 
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="images/cards/graphic-design/Project3-BackgroundPic.png" alt="Card image cap">
-              <div class="card-header">
-                <div class="panel-body projects-panel-body text-center">
-                  <h4> <a href="projects_pages/graphic-design-projects.html#music-interaction">Music Interaction</a> </h4>
-                </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1rLkvOSMwZ5Xgp8kgVQBtAWeJpSnYSYaE/view?usp=sharing" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe mx-2" href="https://drive.google.com/file/d/1iJzxgZM9GeKYvWbbDZ26kMlZjcV2VOWL/view?usp=sharing" style="color:#000000;" role="button"> </a>
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/1Dw9XqfMYx2M56hCrN42eak5Vrkqhx_yg/view?usp=sharing" style="color:#000000;" role="button"> </a>
               </div>
-              <div class = "card-body">
-                <div class="panel-footer projects-panel-footer text-center">
+            </div> 
+            <div class="card d-flex flex-column mb-4 card-index">
+              <div class="card-img-div">
+                <img class="card-img" src="images/cards/graphic-design/Project3-BackgroundPic.png" alt="Card image cap">
+              </div>
+              <div class= "card-body d-flex flex-column justify-content-center text-center p-3">
+                <h3 class="card-title mb-2"> <a class="card-title-link" href="projects_pages/graphic-design-projects.html#music-interaction">Music Interaction</a> </h3>
+                <div class="card-text mb-0">
                   UI Designs made for a Melody Playback on a Digital Audio Workspace (Max8)
                 </div>
+              </div>
+              <div class="card-footer rounded-bottom text-center">
+                <a class="fa fa-globe" href="https://drive.google.com/file/d/16RMum11Y8euq3WS6f2bjwADnPVruSmPq/view?usp=sharing" style="color:#000000;" role="button"> </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <br>
+      
     </main>
     
     <!-- Footer Box-->
     <footer> 
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        <p> Made using HTML, CSS, and Bootstrap</p>
+      <div class="footer-content text-center p-4">
+        <p class = "footer-text"> Made using HTML, CSS, and Bootstrap</p>
         <!-- FIX: Use JS to display the current year date-->
-        <p> © 2024 </p>
+        <p class = "footer-text"> © 2025 </p>
       </div>    
     </footer>
     <!-- End Footer Box-->
