@@ -71,7 +71,7 @@ I have experience with various programming languages like C#, Javascript, Postgr
 - [Personal Website](https://a-vargas-gp.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/vargas-amy)
 - [Itch.io](https://a-varg.itch.io)
-- [Artstation](https://www.artstation.com/vargas-a9)
+- [Artstation](https://www.artstation.com/vargas-amy_gp)
 
 # Credits
 - [ReadMe Templates](https://github.com/othneildrew/Best-README-Template)
